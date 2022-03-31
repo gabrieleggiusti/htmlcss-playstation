@@ -1,0 +1,47 @@
+/* HEADER */
+
+header{
+  height: 40px;
+  background-color: black;
+}
+
+/* MAIN */
+
+/* BANNER */
+.banner-1{
+  margin-top: 100px;
+  background-image: url(../img/jumbo-bg.png);
+  
+}
+
+.banner img{
+  width: 60%;
+}
+
+.banner-2{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.banner-small-1{
+  background-color: #bdbcba;
+}
+
+.banner-small-2{
+  background-color: #161c3c;
+  color: white;
+}
+
+.gg-blue{
+  color: #0071ed;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* SECTION */
+
+.gg-dark{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+/* FOOTER */
