@@ -11,7 +11,74 @@ header{
   height: 100px;
 }
 
+header .sony-banner{
+  background-color: black;
+  height: 30px;
+ }
+ 
+ header .sony-banner img{
+   height: 50%;
+   margin-right: 5px;
+ }
+ 
+ .gg-bg-white{
+   background-color: white;
+ 
+ }
+ 
+ .gg-nav{
+   height: calc(100% - 30px);
+ }
+ 
+ .gg-col-grow{
+   flex-grow: 1;
+ }
+ 
+ .gg-nav-ps{
+   width: 100%;
+   background-color: white;
+   top: 70px;
+   left: 0;
+ }
+ 
+ .gg-nav-ps img{
+   width: 100px;  
+ }
+ 
+ .lens{
+   width: 40px;
+ }
+ 
+ .nav-item .fa-solid{
+   color: #00439c;
+ }
+ 
+ .nav-item img{
+  
+ }
+ 
+ .gg-d-none{
+   display: none;
+ }
+ 
+ .nav-item a:focus-within .gg-d-none{
+  display: inline-block;
+  transform: rotate(180deg);
+ }
+ 
+ .nav-item a:focus-within .gg-chev{
+   display: none;
+ }
+ 
 /* MAIN */
+.gg-translate:hover{
+  transform: translateY(-5px);
+}
+
+.gg-opacity:hover{
+  opacity: 1;
+}
+
 
 /* BANNER */
 .banner-1{
@@ -50,4 +117,37 @@ header{
   color: white;
 }
 
+/* SECTION NUOVE USCITE */
+
+.gg-dark{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+
 /* FOOTER */
+footer{
+  background-color: #00439c;
+  color: white;
+}
+
+footer p a{
+  color: white;
+  text-decoration: underline;
+}
+
+.logo-sony{
+  width: 100px;
+}
+
+.language{
+  width: 20px;
+}
+
+.logo-sie{
+  width: 150px;
+}
+
+ul li{
+  list-style: none;
+}

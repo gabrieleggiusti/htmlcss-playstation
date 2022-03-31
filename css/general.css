@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* DEBUG */
+.debug{
+  background-color: rgba(98, 184, 17, 0.3);
+  border: 1px solid black;
+  min-height: 80px;
+}
+
+.h60{
+  height: 60px;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h500{
+  height: 500px;
+}
+
+
+/* MAIN */
+.banner{
+  background-color: antiquewhite;
+  height: 600px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.active{
+  border: 3px solid #0071ed;
+}
+
+.gg-card{
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.gg-card img{
+  width: 100%;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.gg-opacity{
+  opacity: 0.5;
+}
+
+.active2{
+  opacity: 1;
+  border-bottom: 2px solid #0071ed;
+}
+
+.gg-gray-text{
+  color: #707070;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+.active2{
+  opacity: 1;
+  border-bottom: 2px solid #0071ed;
+}
+
+.gg-gray-text{
+  color: #707070;
+}
+
+/* BUTTONS */
+
+.gg-btn {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 6px 25px;
+}
+
+.gg-btn-inset{
+  background: #0071ed;
+  box-shadow: 0 0 0 5px #0071ed, inset 0 0 0 2px #0071ed;
+}
+
+.gg-btn-black{
+  background-color: #363636;
+  box-shadow: 0 0 0 5px #363636, inset 0 0 0 2px #363636;
+}
+
+.gg-btn-red{
+  background: #cd3c0f;
+  box-shadow: 0 0 0 5px #cd3c0f, inset 0 0 0 2px #cd3c0f;
+}
+
+.gg-btn-gray{
+  color: #0071ed;
+  background: #d5d6d8;
+  border: 2px solid #d5d6d8;
+}
+
+.gg-btn-white{
+  color: black;
+  background: white;
+  box-shadow: 0 0 0 5px white, inset 0 0 0 2px white;
+}
+
+/* BUTTONS HOVER */
+
+.gg-btn-inset:hover {
+  box-shadow: 0 0 0 5px #0071ed, inset 0 0 0 2px white;
+}
+
+.gg-btn-red:hover{
+  box-shadow: 0 0 0 5px #cd3c0f, inset 0 0 0 2px black;
+}
+
+.gg-btn-gray:hover{
+  color: #0071ed;
+  border: 2px solid #b6b4b4;
+}
+
+.gg-btn-white:hover{
+  color: black;
+  box-shadow: 0 0 0 5px white, inset 0 0 0 2px black;
+}
+
+.gg-btn-black:hover{
+  box-shadow: 0 0 0 5px #363636, inset 0 0 0 2px white;
+}
