@@ -3,6 +3,12 @@
 header{
   height: 40px;
   background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100px;
 }
 
 /* MAIN */
@@ -23,16 +29,16 @@ header{
 }
 
 .banner-small-1{
-  background-color: #bdbcba;
+  background-color: #b6b4b1;
 }
 
 .banner-small-2{
   background-color: #161c3c;
-  color: white;
+  color: rgb(252, 245, 245);
 }
 
 .gg-blue{
-  color: #0071ed;
+  color: #056cda;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -40,7 +46,7 @@ header{
 /* SECTION */
 
 .gg-dark{
-  background-color: #1f1f1f;
+  background-color: #131212;
   color: white;
 }
 
